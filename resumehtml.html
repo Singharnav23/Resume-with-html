@@ -1,0 +1,876 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,shrink-to-fit=no"
+    />
+    <title>Arnav Singh Rajput - Resume</title>
+    <meta name="keywords" content="Arnav Singh Rajput,resume,curriculum vitae,cv" />
+    <meta name="description" content="Arnav Singh Rajput's Interactive Resume" />
+    <meta property="og:title" content="Resume of Arnav Singh Rajput" />
+    <meta
+      property="og:description"
+      content="Arnav Singh Rajput's Interactive Resume"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://twitter.com/ArnavSi30003453 />
+    
+    <meta
+      name="twitter:description"
+      content="Arnav Singh Rajput's Interactive Resume"
+    />
+    <meta
+      name="twitter:image"
+      content="https://twitter.com/ArnavSi30003453/photo"
+    />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+      html,
+      body {
+        background: #ccc;
+        font-family: Quicksand, Arial, Verdana, sans-serif;
+        font-size: 2vmin;
+        color: #444;
+      }
+      a:hover,
+      a:focus {
+        text-decoration: none;
+      }
+      main {
+        width: 55vmin;
+        height: 60vmin;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        background: #d8b453;
+      }
+      h2 {
+        font-size: 1.25rem;
+        height: 5vmin;
+        line-height: 5vmin;
+        margin: 0;
+        text-align: center;
+        position: relative;
+      }
+      main section,
+      main header {
+        overflow: hidden;
+        height: 7.5vmin;
+        position: relative;
+        box-sizing: border-box;
+        transition: height 0.4s;
+      }
+      main header::after,
+      main > div > section::after {
+        content: "";
+        position: absolute;
+        height: 0.0vmin;
+        width: 55vmin;
+        bottom: 0px;
+        left: 0;
+        background: linear-gradient(to top right, #ccc 49%, #d8b453 50%);
+      }
+      .contact-2 {
+        display: none;
+      }
+
+      main header {
+        box-shadow: inset 0 0 0 100vmin rgba(0, 0, 0, 0.75);
+        color: #eee;
+      }
+      main header:nth-child(1) {
+        background: url(https://pbs.twimg.com/profile_images/1434417225713086468/_IQXRUAG_200x200.jpg) #336699 top
+          center no-repeat;
+        background-size: cover;
+      }
+     
+      main > div:first-child > section:nth-child(2)::after {
+        background: linear-gradient(to top right, #336699 49%, #d8b453 50%)
+          #d8b453;
+      }
+      main > div:nth-child(2) > section:nth-child(2) {
+        background: #336699;
+        color: #ddeeff;
+      }
+      main > div:nth-child(2) > section:nth-child(2)::after {
+        background: linear-gradient(to top right, #3caea3 49%, #336699 50%);
+      }
+      main > div:nth-child(2) > section:nth-child(3) {
+        background: #3caea3;
+      }
+      main > div:nth-child(2) > section:nth-child(3)::after {
+        background: linear-gradient(to top right, #ed553b 49%, #3caea3 50%);
+      }
+      main > div:nth-child(2) > section:nth-child(4) {
+        background: #ed553b;
+      }
+      main > div:nth-child(2) > section:nth-child(4)::after {
+        background: linear-gradient(to top right, #173f5f 49%, #ed553b 50%);
+      }
+      main > div:nth-child(2) > section:nth-child(5) {
+        background: #173f5f;
+        color: #99bbdd;
+      }
+      main > div:nth-child(2) > section:nth-child(5)::after {
+        background: linear-gradient(to top right, #cccccc 49%, #173f5f 50%);
+      }
+      h1 {
+        text-align: center;
+        color: #eee;
+        transition: 0.5s;
+      }
+      header #objective {
+        padding: 2rem;
+      }
+      #contact-mini a {
+        display: block;
+        text-align: center;
+        color: #fff;
+      }
+      
+      h1 label,
+      h2 label,
+      h3 label {
+        cursor: pointer;
+      }
+      #section-0:not(:checked) ~ main h1 {
+        margin-top: 0;
+      }
+      #section-0:checked ~ main header {
+        height: 42.5vmin;
+      }
+
+      #section-2:checked ~ main > div:nth-child(2) > section:nth-child(2) {
+        height: 42.5vmin;
+      }
+      #section-3:checked ~ main > div:nth-child(2) > section:nth-child(3) {
+        height: 42.5vmin;
+      }
+      #section-4:checked ~ main > div:nth-child(2) > section:nth-child(4) {
+        height: 62.5vmin;
+      }
+      #section-5:checked ~ main > div:nth-child(2) > section:nth-child(5) {
+        height: 42.5vmin;
+      }
+      h3 {
+        text-align: center;
+      }
+      .dept {
+        display: none;
+      }
+      main > div:nth-child(1) > section:nth-child(2) ul {
+        font-size: 0.9em;
+      }
+      main > div:nth-child(1) > section:nth-child(2) h2 {
+        width: 55vmin;
+      }
+      main > div:nth-child(1) > section:nth-child(2) section h3,
+      main > div:nth-child(1) > section:nth-child(2) section h4,
+      main > div:nth-child(1) > section:nth-child(2) section h4 span {
+        margin: 0;
+        text-align: center;
+        display: block;
+      }
+      main > div:nth-child(1) > section:nth-child(2) section {
+        width: 55vmin;
+        height: 33vmin;
+        box-sizing: border-box;
+        padding: 0 1.5rem;
+        float: left;
+      }
+      #experience-container {
+        width: 400%;
+        overflow: hidden;
+        position: absolute;
+        transition: left 0.5s;
+        left: 0;
+      }
+
+      main > div:nth-child(2) > section > ul {
+        padding-left: 5vmin;
+      }
+      main
+        > div:nth-child(2)
+        > section:nth-child(n + 3)
+        > ul
+        > li:nth-child(n + 2) {
+        margin-top: 1rem;
+      }
+
+      main > div:nth-child(2) > section > ul > li a {
+        color: white;
+      }
+      main > div:nth-child(2) > section > ul > li a:hover {
+        text-decoration: none;
+      }
+      #edu-certs {
+        color: #1b3d15;
+      }
+      #Training {
+        color: #410d15;
+      }
+      .prev,
+      .next {
+        position: absolute;
+        top: 50%;
+        right: 0.5rem;
+        overflow: hidden;
+        font-size: 3rem;
+        transition: all 0.5s;
+        cursor: pointer;
+      }
+      .prev {
+        right: auto;
+        left: 0.5rem;
+      }
+      .prev span,
+      .next span {
+        position: absolute;
+        top: -100000px;
+        left: -10000px;
+      }
+
+      .prev:hover,
+      .next:hover {
+        color: #000;
+        text-shadow: 0 -1px #fff, 1px -1px #fff, 1px 0 #fff, 1px 1px #fff,
+          0 1px #fff, -1px 1px #fff, -1px 0 #fff, -1px -1px #fff, 0 0 2px #fff;
+      }
+      #work-0:checked ~ main #experience-container {
+        left: 0;
+      }
+    
+      main #languages,
+      main #edu-certs > ul,
+      main #Training > ul,
+      main #additional-links > ul {
+        opacity: 0;
+        margin-top: 3rem;
+        transition: all 0.75s;
+        transition-delay: 0.25s;
+      }
+     
+      #section-2:checked ~ main #languages ,
+      #section-3:checked ~ main #edu-certs > ul,
+      #section-4:checked ~ main #Training > ul,
+      #section-5:checked ~ main #additional-links > ul {
+        opacity: 1;
+        margin-top: 0;
+      }
+      
+      #languages {
+        column-count: 2;
+        font-size: 1.25rem;
+        list-style: none;
+      }
+      .educert > li > span,
+      #Training > ul > li > span {
+        font-size: 1.25rem;
+        color: #000;
+      }
+
+      @media (orientation: portrait) and (max-width: 500px) {
+        html,
+        body {
+          font-size: 2.8vmin;
+        }
+        main {
+          width: 80vmin;
+          height: 115vmin;
+        }
+        main header::after,
+        main > div > section::after {
+          width: 80vmin;
+        }
+        #section-0:checked ~ main header {
+          height: 77.5vmin;
+        }
+        #section-1:checked ~ main > div:nth-child(1) > section:nth-child(2) {
+          height: ;
+        }
+        #section-2:checked ~ main > div:nth-child(2) > section:nth-child(2) {
+          height: 77.5vmin;
+        }
+        #section-3:checked ~ main > div:nth-child(2) > section:nth-child(3) {
+          height: 77.5vmin;
+        }
+        #section-4:checked ~ main > div:nth-child(2) > section:nth-child(4) {
+          height: 77.5vmin;
+        }
+        #section-5:checked ~ main > div:nth-child(2) > section:nth-child(5) {
+          height: 50.5vmin;
+        }
+        main > div:nth-child(2) > section > ul {
+          padding-left: 10vmin;
+        }
+        main > div:nth-child(1) > section:nth-child(2) section {
+          width: 80vmin;
+          height: 60vmin;
+          padding: 7.5vmin;
+        }
+        #work-0:checked ~ main #experience-container {
+          left: 0;
+        }
+        #work-1:checked ~ main #experience-container {
+          left: -80vmin;
+        }
+        #work-2:checked ~ main #experience-container {
+          left: -160vmin;
+        }
+        #work-3:checked ~ main #experience-container {
+          left: -240vmin;
+        }
+        main > div:nth-child(1) > section:nth-child(2) h2 {
+          width: 80vmin;
+        }
+      }
+    </style>
+    <style>
+      @media print {
+        @page {
+          size: letter;
+        }
+        main #experience-container section,
+        main #languages,
+        main #edu-certs > ul,
+        main #Training > ul,
+        main #additional-links > ul {
+          opacity: 1;
+          margin-top: 0.75rem !important;
+        }
+        #languages li:nth-child(n + 9) {
+          display: none;
+        }
+        .educert > li > span,
+        #Training > ul > li > span,
+        .educert > li > a {
+          font-size: 1rem;
+          color: #444;
+          font-weight: bold;
+        }
+        main > div:nth-child(1) > section:nth-child(2),
+        #experience-container,
+        main > div:nth-child(1) > section:nth-child(2) > h2,
+        main > div:nth-child(1) > section:nth-child(2) section,
+        main > div:nth-child(1) > section:nth-child(2) section h3,
+        main > div:nth-child(1) > section:nth-child(2) section h4 {
+          width: auto;
+          float: none;
+          padding: 0;
+          text-align: left;
+          left: 0 !important ;
+          height: auto;
+          position: relative;
+        }
+        main > div:nth-child(1) > section:nth-child(2) section h4 span {
+          display: inline-block;
+        }
+        main
+          > div:nth-child(2)
+          > section:nth-child(n + 3)
+          > ul
+          > li:nth-child(n + 2) {
+          margin-top: inherit;
+        }
+        main > div:nth-child(1) > section:nth-child(2) ul {
+          font-size: 1em;
+        }
+        main > div:nth-child(2) > section > ul > li a {
+          color: inherit;
+        }
+        main > div:nth-child(2) > section > ul {
+          padding-left: 0;
+        }
+        .prev,
+        .next {
+          display: none !important;
+        }
+        main {
+          background: #fff;
+          box-sizing: border-box;
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+          margin: 2rem auto;
+          padding: 2.75rem;
+          position: relative;
+          width: auto;
+          height: auto;
+          top: auto;
+          left: auto;
+          transform: none;
+          -webkit-transform: none;
+        }
+
+        main::after {
+          display: none;
+        }
+
+        main section,
+        main header {
+          height: auto !important;
+          background: rgba(255, 255, 255, 0) !important;
+          box-shadow: none;
+          color: #000;
+          margin: auto;
+          padding: auto;
+        }
+
+        header #objective {
+          padding: 0;
+        }
+
+        main header::after,
+        main section::after {
+          display: none;
+        }
+
+        h1 {
+          margin: 0;
+          font-size: 2.5rem;
+          line-height: 2rem;
+          font-weight: normal;
+          color: #000;
+          text-align: left;
+        }
+
+        h2 {
+          color: #47a;
+          font-size: 1rem;
+          font-weight: bold;
+          margin: 0;
+          margin-top: 1.5rem;
+          text-transform: uppercase;
+          line-height: 1.2rem;
+          height: auto;
+          text-align: left;
+        }
+
+        h3 {
+          color: #111;
+          font-size: 1.25rem;
+          margin-top: 0rem;
+          margin: 0;
+          font-weight: normal;
+          text-align: left;
+        }
+
+        h3 span.dept {
+          color: #aaa;
+          display: inline-block;
+        }
+
+        h3 span.dept::before {
+          content: "";
+          border-left: 1px solid #ccc;
+          padding-left: 0.4rem;
+        }
+
+        h4 {
+          margin: 0;
+          font-weight: normal;
+        }
+
+        h4 span.dates {
+          color: #888;
+          display: inline-block;
+          float: right;
+        }
+
+        p {
+          font-size: 1rem;
+          margin-top: 0.5rem;
+          margin-bottom: 0;
+        }
+
+        a {
+          color: #369;
+        }
+
+        a:hover {
+          color: #36c;
+        }
+
+        time {
+          display: inline-block;
+          min-width: 2rem;
+        }
+
+        address {
+          font-style: normal;
+          display: block;
+        }
+
+        .normal {
+          font-weight: normal;
+        }
+
+        .position {
+          margin-top: 0.75rem;
+          transition: opacity 0.7s;
+        }
+
+        .no-bullets,
+        .no-bullets ul {
+          list-style: none;
+          margin-left: 0;
+          padding-left: 0;
+          color: #000;
+          font-weight: bold;
+        }
+        .no-bullets ul {
+          font-weight: normal;
+        }
+        .no-bullets span {
+          color: #666;
+        }
+
+        #contact {
+          text-align: right;
+          font-size: 0.9rem;
+        }
+
+        #phone {
+          font-size: 1.25rem;
+          font-weight: bold;
+          text-decoration: none !important;
+        }
+
+        #location {
+          font-size: 1.1rem;
+        }
+
+        #languages {
+          column-count: 4;
+          font-size: 1rem;
+        }
+
+        #contact-mini {
+          display: flex;
+          margin-top: 1rem;
+        }
+
+        #contact-mini > div {
+          font-size: 0.75rem;
+          flex: 1;
+        }
+
+        #contact-mini > div:nth-child(2) {
+          text-align: center;
+          flex: 2;
+        }
+        #contact-mini > div:last-child {
+          text-align: right;
+        }
+
+        #contact {
+          display: none;
+        }
+
+        @media all and (min-width: 630px) {
+          main {
+            max-width: 600px;
+          }
+          #contact-mini > div {
+            font-size: 1rem;
+          }
+        }
+
+        @media all and (min-width: 1000px) {
+          html,
+          body {
+            font-size: 16px;
+          }
+          main {
+            max-width: 920px;
+            display: flex;
+          }
+          main > div:first-child {
+            flex: 1;
+          }
+          main > div:last-child {
+            width: 21%;
+            margin-left: 4%;
+          }
+          #languages {
+            column-count: 1;
+          }
+          .educert {
+            display: block;
+          }
+          .educert > li:nth-child(n + 2) {
+            margin-top: 0.75rem;
+          }
+          #contact-mini {
+            display: none;
+          }
+          #contact {
+            display: block;
+          }
+          #email,
+          #website {
+            font-size: 0.9em;
+          }
+        }
+
+        @media all and (min-width: 1200px) {
+          html,
+          body {
+            font-size: 18px;
+          }
+          main {
+            max-width: 1120px;
+          }
+          #email,
+          #website {
+            font-size: 1em !important;
+          }
+        }
+        html,
+        body {
+          background: #fff;
+          font-size: 16px;
+          width: 900px;
+        }
+        a,
+        a:visited,
+        a:link,
+        a:active,
+        a:focus,
+        #languages label {
+          text-decoration: none;
+          color: #999;
+        }
+        main {
+          margin: 0;
+          max-width: 920px;
+          display: flex;
+          box-shadow: none;
+        }
+        main > div:first-child {
+          flex: 1;
+        }
+        main > div:last-child {
+          width: 21%;
+          margin-left: 4%;
+        }
+        #languages {
+          column-count: 1;
+        }
+        .educert {
+          display: block;
+        }
+        .educert > li:nth-child(n + 2) {
+          margin-top: 0.75rem;
+        }
+        .position {
+          opacity: 1 !important;
+        }
+        #contact-mini {
+          display: none;
+        }
+        #contact {
+          display: block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <input
+      aria-hidden="true"
+      tabindex="-1"
+      type="radio"
+      name="section"
+      id="section-0"
+      checked
+    />
+    <input
+      aria-hidden="true"
+      tabindex="-1"
+      type="radio"
+      name="section"
+      id="section-2"
+    />
+    <input
+      aria-hidden="true"
+      tabindex="-1"
+      type="radio"
+      name="section"
+      id="section-3"
+    />
+    <input
+      aria-hidden="true"
+      tabindex="-1"
+      type="radio"
+      name="section"
+      id="section-4"
+    />
+    <input
+      aria-hidden="true"
+      tabindex="-1"
+      type="radio"
+      name="section"
+      id="section-5"
+    />
+
+   
+    <main id="resume" itemscope >
+      <div>
+        <header>
+          <h1 itemprop="name"><label for="section-0">Arnav Singh Rajput</label></h1>
+          <p id="objective" itemprop="description">
+            <span itemprop="jobTitle"> Seeking a beginner role to enhance and explore my technical knowledge gained 
+ In the last three years.Wants to enhance my skillsets in an industry environment and to deepens my 
+ Knowledge in applied parts of corporate firm.
+          </p>
+          <address id="contact-mini">
+            <div itemprop="email">
+              <a href="mailto:singharnav2000.as@gmail.com"
+                >singharnav2000.as@gmail.com</a
+              >
+            </div>
+            <a href="tel:+91 9691752263"
+              ><span itemprop="telephone">(+91)9691752263</span></a
+            >
+          </address>
+        </header>
+      </div>
+      <div>
+        <address id="contact" class="contact-2">
+        
+          <a href="tel:+91 9691752263" id="phone">9691752263</a>
+          <div>
+            <a href="mailto:singharnav2000.as@gmail.com" id="email"
+              >singharnav2000.as@gmail.com</a
+            >
+          </div>
+        </address>
+
+        <section>
+          <h2><label for="section-2">Programming Languages</label></h2>
+          <ul  class="no-bullets educert" id="languages">
+            <li itemprop="knowsAbout">JavaScript</li></br>
+            <li itemprop="knowsAbout">HTML</li></br>
+            <li itemprop="knowsAbout">CSS</li></br>
+            <li itemprop="knowsAbout">Java</li></br>
+            <li itemprop="knowsAbout">SQL</li></br>
+            <li itemprop="knowsAbout">C</li></br>
+            <li itemprop="knowsAbout">C++</li></br>
+            <li itemprop="knowsAbout">Python</li></br>
+          </ul>
+        </section>
+
+        <section id="edu-certs">
+          <h2><label for="section-3">Education</label></h2>
+          <ul class="no-bullets educert">
+            <li
+              itemprop="alumniOf"
+              itemscope
+              itemtype="http://schema.org/EducationalOrganization"
+            >
+              <span itemprop="name">Lotus English High School</span>
+              <ul>
+                <li itemprop="award">From 2016-2017 </li>
+			    <li itemprop="award">Passed with 80.2% </li>
+
+              </ul>
+            </li>
+            <li
+              itemprop="alumniOf"
+              
+            >
+              <span itemprop="name">Govt. Model Higher Secondary School</span>
+              <ul>
+		        <li itemprop="award">From 2017-2018 </li>	  
+                <li itemprop="award">Passed with 70.2%</li>
+              </ul>
+            </li>
+			<li
+              itemprop="alumniOf"
+              itemscope
+              itemtype="http://schema.org/EducationalOrganization"
+            >
+              <span itemprop="name">Jai Narain College Of Technology</span>
+              <ul>
+                <li itemprop="award">From 2018-2022 </li>
+			    <li itemprop="award">Current Cgpa 7.8 / 74.9 % </li>
+
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section id="Training">
+          <h2><label for="section-4">Training</label></h2>
+          <ul class="no-bullets">
+            <li>
+              <span>C & C++ </span>
+              <ul>
+                <p>
+                  From Parabit Technology Pvt. Ltd.</br>
+				  Skill Level : Intermediate 
+                 </p>
+              </ul>
+            </li>
+            <li>
+              <span>Core Java</span>
+              <ul>
+                <p >
+				From  Parabit Technology Pvt. Ltd.</br>
+				Skill Level : Intermediate 
+              </ul>
+            </li>
+			<li>
+              <span>Html & Css</span>
+              <ul>
+                <p>
+				From Online Platform.</br>
+				Skill Level : Intermediate 
+              </ul>
+            </li>
+			<li>
+              <span>SQL</span>
+              <ul>
+                <p>
+				From Online Platform.</br>
+				Skill Level : Beginner 
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section id="additional-links">
+          <h2><label for="section-5">Additional Links</label></h2>
+          <ul class="no-bullets educert">
+            <li>
+              <a
+                rel="external author"   
+				href="https://www.hackerrank.com/singharnav2000_1"
+                >Hacker Rank</a
+              >
+              <href=" ">
+            </li>
+            <li>
+              <a
+                rel="external author"
+				href="https://github.com/Singharnav23"  
+                >Github</a
+              >
+			  
+            </li>
+            <li>
+              <a rel="external author" href="https://twitter.com/ArnavSi30003453"
+                >Twitter</a
+              >
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
